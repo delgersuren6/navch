@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Navch — Real-Time Lecture Captioning</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- Header -->
+    <header class="header">
+        <div>
+            <h1> Navch</h1>
+            <p>Real-Time Lecture Captioning</p>
+        </div>
+
+        <div class="status">
+             Ready
+        </div>
+    </header>
+
+
+    <!-- Lecture setup -->
+    <section class="card setup-card">
+
+        <label for="lecturetitle">Lecture Title</label>
+
+        <input
+            id="lecturetitle"
+            type="text"
+            placeholder="e.g. Object-Oriented Programming"
+        >
+
+        <div class="buttons">
+
+            <button id="startButton" class="start-btn">
+                Start
+            </button>
+
+            <button id="stopButton" class="stop-btn">
+                Stop
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Transcript -->
+    <section class="card transcript-card">
+
+        <div class="section-header">
+            <h2>Live Transcript</h2>
+            <span class="language">MN</span>
+        </div>
+
+        <div id="transcript" class="transcript">
+            Your lecture transcript will appear here...
+        </div>
+
+    </section>
+
+
+    <!-- Actions -->
+    <section class="card actions-card">
+
+        <button id="saveButton" class="save-btn">
+            Save Lecture
+        </button>
+
+        <button id="exportButton" class="export-btn">
+            Export TXT
+        </button>
+
+    </section>
+
+
+    <!-- Lecture History -->
+    <section class="card history-card">
+
+        <div class="section-header">
+            <div>
+                <h2>Lecture History</h2>
+                <p class="section-description">
+                    Your saved lectures
+                </p>
+                <button id="seeAll" class="save-btn">
+                    See all lectures </button>
+            </div>
+        </div>
+
+        <input
+            id="searchInput"
+            class="search-input"
+            type="text"
+            placeholder=" Search lectures..."
+        >
+
+        <div id="lectureHistory" class="lecture-history">
+            <!-- Lectures will appear here -->
+        </div>
+
+    </section>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
