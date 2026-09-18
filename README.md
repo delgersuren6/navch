@@ -35,17 +35,18 @@ navch/
 │   ├── style.css
 │   └── script.js
 └── database/
+```
 
-Future Improvements
+## Future Improvements
 
-Speaker identification
-Teacher/student conversation detection
-Lecture summarization
-Better transcript segmentation
-Authentication and user accounts
-Support for different conversation modes
-Integration with external speech-to-text providers
+- Speaker identification
+- Teacher/student conversation detection
+- Lecture summarization
+- Better transcript segmentation
+- Authentication and user accounts
+- Support for different conversation modes
+- Integration with external speech-to-text providers
 
-Status
+## Status
 🚧 This project is currently under active development.
 
